@@ -4,6 +4,12 @@ This Streamlit application leverages OpenAI's Whisper API to transcribe speech a
 
 ---
 
+## 🌍 Live Demo
+You can try out the deployed application here:  
+🔗 **[Byte-XL ASR Web App](https://byte-xl-asr.streamlit.app/)**
+
+---
+
 ## 📌 Features
 - **Speech Transcription**: Uses OpenAI Whisper API to convert audio into text.
 - **Fluency Analysis**: Calculates Words Per Minute (WPM), pauses, and fluency score.
@@ -17,8 +23,8 @@ This Streamlit application leverages OpenAI's Whisper API to transcribe speech a
 
 ### 1️⃣ **Clone the Repository**
 ```sh
-git clone https://github.com/your-repository/speech-analysis-app.git
-cd speech-analysis-app
+git clone https://github.com/aakarshhh/byte-xl-audllm.git
+cd byte-xl-audllm
 ```
 
 ### 2️⃣ **Create a Virtual Environment (Recommended)**
@@ -41,7 +47,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Running the Application
+## 🚀 Running the Application Locally
 Once dependencies are installed, start the Streamlit app:
 
 ```sh
@@ -54,7 +60,7 @@ This will launch the web interface in your default browser.
 
 ## 📂 File Structure
 ```
-speech-analysis-app/
+byte-xl-audllm/
 │── app.py                # Main Streamlit application
 │── requirements.txt       # Required Python dependencies
 │── README.md              # Setup & execution instructions
@@ -68,6 +74,18 @@ To use OpenAI's Whisper API, you need an API key:
 
 1. Get your **OpenAI API key** from [OpenAI](https://platform.openai.com/).
 2. Enter it in the sidebar of the application when prompted.
+
+---
+
+## 🖥️ Running on Streamlit Cloud
+The app is already deployed at:  
+🔗 **[Byte-XL ASR Web App](https://byte-xl-asr.streamlit.app/)**
+
+If you wish to deploy it yourself:
+1. Sign up at [Streamlit Cloud](https://streamlit.io/cloud).
+2. Fork the repository and connect it to Streamlit Cloud.
+3. Configure the environment variables (if needed).
+4. Deploy the app!
 
 ---
 
@@ -97,8 +115,12 @@ Feel free to contribute by submitting issues or pull requests.
 ✅ **Setup Instructions**  
 ✅ **Installation of Dependencies**  
 ✅ **Execution Steps**  
+✅ **Live Deployment Link**  
 ✅ **API Key Configuration**  
 ✅ **Debugging & Logging**  
 ✅ **Project Structure Explanation**  
+✅ **Streamlit Cloud Deployment Guide**  
 ✅ **Troubleshooting Section**  
 ✅ **Contribution & License Info**  
+
+---
