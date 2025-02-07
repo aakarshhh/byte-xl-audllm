@@ -197,7 +197,7 @@ if st.button("🚀 Analyze Speech", disabled=not audio_file):
                     structured_analysis = generate_structured_analysis(transcription_data, st.session_state.openai_api_key, fluency_results)
                     if structured_analysis:
                         st.subheader("📊 Parametric Analysis")
-                        st.json(structured_analysis)
+                        st.table(structured_analysis)
             else:
                 st.error("❌ Failed to transcribe the audio.")
 
